@@ -1,0 +1,63 @@
+body {
+font-family: 'Arimo', sans-serif;
+background-color: #FAFFFD;
+}
+figcaption {
+  font-size: 12px;
+  line-height: 1.5em;
+  font-color: #2C363F;
+}
+html {
+  background-color: #FAFFFD;
+}
+#header {
+  text-align: center;
+}
+
+a{
+  color: #4D4F54;
+font-family: 'Arimo', sans-serif;
+font-size: 25px;
+}
+a:hover {
+  color: #FFD1F0;
+}
+
+.font-size {
+  font-size: 15px;
+}
+img {
+  width: auto;
+  max-width: 100;
+  height: auto;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@include media-breakpoint-up(sm){
+  html {
+    font-size:1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md){
+  html{
+    font-size: 1.4rem;
+  }
+}
+@include media-breakpoint-up(lg){
+  html{
+    font-size:1.6rem;
+  }
+}
